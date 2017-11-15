@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.lurenman.rxjava2demo.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_rxjava2One"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rxjava2操作符One"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_rxjava2Two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rxjava2操作符Two"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_Flowable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Flowable特写"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:padding="10dp"
+        />RxBus
+    <TextView
+        android:id="@+id/tv_RxBus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="RxBus使用"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:padding="10dp"
+        />
+
+</LinearLayout>
